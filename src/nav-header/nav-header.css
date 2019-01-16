@@ -1,0 +1,13 @@
+.NavHeader {
+    border-bottom: 1px solid #50505050;
+    background-color: rgba(3, 143, 142, 0.3);
+    padding: 2px 15px;    
+}
+
+.NavHeader .logout {
+    float: right;
+}
+
+.NavHeader .btn-sm {
+    line-height: 0.75;
+}

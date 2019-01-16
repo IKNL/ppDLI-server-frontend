@@ -1,0 +1,14 @@
+.Globe {
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+    /*border: 1px solid cyan;*/
+}
+
+#globe {
+    height: 100%;
+    flex: 1;
+}

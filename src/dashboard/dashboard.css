@@ -1,0 +1,41 @@
+.Dashboard {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Dashboard .padded {
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.Dashboard .header {
+    font-family: united_sans_medium;
+
+    border-top: 1px solid #7e9295;
+    border-bottom: 1px solid #7e9295;
+
+    text-transform: uppercase;
+    padding-top: 4px;
+    padding-bottom: 1px;
+}
+
+.Dashboard .panel {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 2px;
+    background-color: rgba(0, 0, 0, 0.8);
+
+    /*border: 1px solid yellow;*/
+}
+
+.Dashboard div[class^="col-"], 
+.Dashboard div[class*=" col-"] {
+    /*border: 1px solid red;*/
+    padding-left:  5px;
+    padding-right: 5px;
+}

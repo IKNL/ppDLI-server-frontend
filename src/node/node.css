@@ -1,0 +1,17 @@
+.Node {
+  
+}
+
+
+.Node .right {
+    float:right;
+    /*font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;*/
+}
+
+.Node .green {
+    color: lime;
+}
+
+.Node .red {
+    color: red;
+}
